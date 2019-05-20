@@ -3,9 +3,12 @@
     "standard":"freelancer-profile-standard",
     "standard-version":"0.1",
     "about-this-standard":"By publishing this json, the freelancer grants everyone, which is not in the excludes-list, to take him/her into their freelancer-pool, fetch the updates from the master-profile and list him/her on their platform with all data provided. More about this standard: https://www.it-freelancer-magazin.de/index.php/freelancer-profile-standard/",
-	"home-of-freelancers-master-profile":"http://www.my-freelancer-homepage.com/url-to-this-file.json",
-	"latest-profile-update":"2019-05-19",
-	"excludes": ["this-agent-mustnot-contact-me.com","this-platform-mustnot-list-me.com"]
+    "home-of-freelancers-master-profile":"http://www.my-freelancer-homepage.com/url-to-this-file.json",
+    "latest-profile-update":"2019-05-19",
+    "excludes":[  
+      "this-agent-mustnot-contact-me.com",
+      "this-platform-mustnot-list-me.com"
+    ]
   },
   "personal-data":{  
     "prename":"Rudolf",
@@ -19,55 +22,87 @@
       "city":"Dresden",
       "country":"DE"
     },
-	"natural-languages":["English", "German", "French"],
-	"phone":["0172333333","0171444444"],
-	"e-mail":"rudolf.bayer@my-freelancer-homepage.com",
-	"homepage":"http://www.my-freelancer-homepage.com",
-	"nationality":"DE",
-	"further-profiles": ["https://www.xing.com/profile/Rudolf_Bayer9/cv","https://de.wikipedia.org/wiki/Rudolf_Bayer_(Informatiker)"],
-	"education": ["Master of Science (M.Sc.), University of Life","Something with media (S.w.m.), Gary Vee University"],
-	"certifcates": ["Universal Tester Basic","Microsoft Windows Server Administration", "Amazon AWS Super hero"],
-	"interests": ["gaming", "urban farming", "firefighter"]
+    "natural-languages":[  
+      "English",
+      "German",
+      "French"
+    ],
+    "phone":[  
+      "0172333333",
+      "0171444444"
+    ],
+    "e-mail":"rudolf.bayer@my-freelancer-homepage.com",
+    "homepage":"http://www.my-freelancer-homepage.com",
+    "nationality":"DE",
+    "further-profiles":[  
+      "https://www.xing.com/profile/Rudolf_Bayer9/cv",
+      "https://de.wikipedia.org/wiki/Rudolf_Bayer_(Informatiker)"
+    ],
+    "education":[  
+      "Master of Science (M.Sc.), University of Life",
+      "Something with media (S.w.m.), Gary Vee University"
+    ],
+    "certifcates":[  
+      "Universal Tester Basic",
+      "Microsoft Windows Server Administration",
+      "Amazon AWS Super hero"
+    ],
+    "interests":[  
+      "gaming",
+      "urban farming",
+      "firefighter"
+    ]
   },
-  "business":{
-  	"probably-available-from":"2019-10-16",
-	"hourly-rate-without-travel-costs":"80€",
-	"readiness-to-travel":["DE","AU","CH"],
-	"why-me":"http://www.my-freelancer-homepage.com/an-url-to-show-my-personality-and-unique-selling-proposition,-for-example-in-a-video.html",
-	"main-skills":["test-automation","programming","team-lead","requirements-engineering","communication"],
-	"references": [
-	{
-		"reference":"https://www.it-freelancer-magazin.de/index.php/it-freelancer-des-jahres/",
-		"evaluation":"IT Freelancer Of The Year 2019"
-	},
-	{
-		"reference":"https://www.tu-ilmenau.de/mt-emt/personen/brandenburg-karlheinz/",
-		"evaluation":"He has done a fantastic job!"
-	},
-	{
-		"reference":"https://twitter.com/elonmusk",
-		"evaluation":"I'll take him to Mars!"
-	}]
+  "business":{  
+    "probably-available-from":"2019-10-16",
+    "hourly-rate-without-travel-costs":"80€",
+    "readiness-to-travel":[  
+      "DE",
+      "AU",
+      "CH"
+    ],
+    "why-me":"http://www.my-freelancer-homepage.com/an-url-to-show-my-personality-and-unique-selling-proposition,-for-example-in-a-video.html",
+    "main-skills":[  
+      "test-automation",
+      "programming",
+      "team-lead",
+      "requirements-engineering",
+      "communication"
+    ],
+    "references":[  
+      {  
+        "reference":"https://www.it-freelancer-magazin.de/index.php/it-freelancer-des-jahres/",
+        "evaluation":"IT Freelancer Of The Year 2019"
+      },
+      {  
+        "reference":"https://www.tu-ilmenau.de/mt-emt/personen/brandenburg-karlheinz/",
+        "evaluation":"He has done a fantastic job!"
+      },
+      {  
+        "reference":"https://twitter.com/elonmusk",
+        "evaluation":"I'll take him to Mars!"
+      }
+    ]
   },
-  "projects":[
-	{
-	"title":"Testautomation project in Bavarian automobile industry",
-	"from":"2016-02-01",
-	"until":"NOW",
-	"description":"Buiding a <b>testsuite</b> for a car configurator. Working most of the time remote in a Scrum team.<br><b>Skills:</b> Java, Selenium, JUnit, Jenkins"
-	},
-	{
-	"title":"Testautomation project in scientific environment",
-	"from":"2014-01-25",
-	"until":"2016-01-31",
-	"description":"<br><b>Role:</b> Teamlead<br>Building a testsuite for production & process control software. I've been the lead tester with 10 test-automation collegues. Customer was happy as crazy."
-	},
-	{
-	"title":"Testautomation project for mobile app",
-	"from":"2013-12-15",
-	"until":"2014-01-24",
-	"description":"Build a little testframework for a legacy mobile ticket-ordering-system. The customer was so suprised of my fanatstic solution that he gave me a big extra bonus."
-	}		
+  "projects":[  
+    {  
+      "title":"Testautomation project in Bavarian automobile industry",
+      "from":"2016-02-01",
+      "until":"NOW",
+      "description":"Buiding a <b>testsuite</b> for a car configurator. Working most of the time remote in a Scrum team.<br><b>Skills:</b> Java, Selenium, JUnit, Jenkins"
+    },
+    {  
+      "title":"Testautomation project in scientific environment",
+      "from":"2014-01-25",
+      "until":"2016-01-31",
+      "description":"<br><b>Role:</b> Teamlead<br>Building a testsuite for production & process control software. I've been the lead tester with 10 test-automation collegues. Customer was happy as crazy."
+    },
+    {  
+      "title":"Testautomation project for mobile app",
+      "from":"2013-12-15",
+      "until":"2014-01-24",
+      "description":"Build a little testframework for a legacy mobile ticket-ordering-system. The customer was so suprised of my fanatstic solution that he gave me a big extra bonus."
+    }
   ],
   "miscellaneous":"www.it-freelancer-magazin.de rocks!"
 }
