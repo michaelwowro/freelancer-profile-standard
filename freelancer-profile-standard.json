@@ -2,7 +2,7 @@
   "meta":{  
     "standard":"freelancer-profile-standard",
     "standard-version":"0.1",
-    "about-this-standard":"By publishing this json, the freelancer grants everyone, which is not in the excludes-list, to take him/her into their freelancer-pool, fetch the updates from the master-profile and list him/her on their platform with all data provided.",
+    "about-this-standard":"By publishing this json, the freelancer grants everyone, which is not in the excludes-list, to take him/her into their freelancer-pool, fetch the updates from the master-profile and list him/her on their platform with all data provided. More about this standard: https://www.it-freelancer-magazin.de/index.php/freelancer-profile-standard/",
 	"home-of-freelancers-master-profile":"http://www.my-freelancer-homepage.com/url-to-this-file.json",
 	"latest-profile-update":"2019-05-19",
 	"excludes": ["this-agent-mustnot-contact-me.com","this-platform-mustnot-list-me.com"]
@@ -69,5 +69,5 @@
 	"description":"Build a little testframework for a legacy mobile ticket-ordering-system. The customer was so suprised of my fanatstic solution that he gave me a big extra bonus."
 	}		
   ],
-  "miscellaneous":"https://www.it-freelancer-magazin.de rocks!"
+  "miscellaneous":"www.it-freelancer-magazin.de rocks!"
 }
